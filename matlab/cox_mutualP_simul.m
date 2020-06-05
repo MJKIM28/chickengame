@@ -32,9 +32,9 @@ point=[-0.5 0.5]; % kindness value; -0.5 = rush, 0.5 = avoid
 
 
 %% image load
-IMG_carLeft = imread('car_left.jpg');
-IMG_carRight = imread('car_right.jpg');
-IMG_crush = imread('crush.jpg');
+IMG_carLeft = imread('car_left.png');
+IMG_carRight = imread('car_right.png');
+IMG_crush = imread('crush.png');
 
 %% {times} TRIAL
 for n=1:times

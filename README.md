@@ -23,5 +23,5 @@ Minju Kim
 Combined Master's and Doctoral Course
 
 BCIlab
-Department of Human Factors Engineerging
+Department of Biomedical Engineering
 Ulsan National Institute of Science and Technology(UNIST)

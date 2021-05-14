@@ -7,8 +7,8 @@ global rsum2
 
 % Elements of matrix for parameters of the artificial agent 
 alpha= x(1);
-beta= x(2); % the rate of retention of reciprocity
-gamma = x(3); % the initial benevolence parameter
+gamma= x(2); % the rate of retention of reciprocity
+beta = x(3); % the initial benevolence parameter
 theta = x(4); % the relative weight of the other's kindness
 
 % Probability of the artificial agent
@@ -51,8 +51,8 @@ for n=1:times
     
     %-- update of kindness. rep(1,1) ~ kindness of self, rep(1,2) ~
     %kindness of other    
-    rep(1,1) = beta*rep(1,1)+point(act(n,1)+1); % eq(7) of Lee et al. (2015)       
-    rep(1,2) = beta*rep(1,2)+point(act(n,2)+1)+gamma;    
+    rep(1,1) = gamma*rep(1,1)+point(act(n,1)+1); % eq(7) of Lee et al. (2015)       
+    rep(1,2) = gamma*rep(1,2)+point(act(n,2)+1)+beta;    
     
     %-- update of emotional state (reciprocity). eq(8) of Lee et al. (2015)
     emotion1 = 2*(theta*rep(1,2)-((1-theta)*rep(1,1)));    

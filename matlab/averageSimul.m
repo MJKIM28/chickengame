@@ -31,8 +31,8 @@ rsum2 = ones(1,2)*20000;
 
 %% Parameter values for each of four patterns + undefined pattern
 
-% alpha, beta, gamma, theta of the artificial agent
-% retention parameter -> gamma = -0.068871041 & sensitivity to the reciprocity -> theta = 0.609932437
+% alpha, gamma, beta, theta of the artificial agent
+% retention parameter -> gamma = 0.110214129 & sensitivity to the reciprocity -> theta = 0.609932437
 exchange = [0.986359191	0.110214129	0.068871041 0.709932437];
 rush = [0.86323849 0.673074352 -0.738832267	0.696529261];
 avoid = [0.864833547 0.37028665	0.126612251	0.978597705];
